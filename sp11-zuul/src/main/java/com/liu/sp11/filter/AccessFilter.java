@@ -20,6 +20,9 @@ public class AccessFilter extends ZuulFilter {
 			if(serviced.equals("item-service")) {
 				return true;
 			}
+			
+			
+			//怎么了？
 		return false;
 	}
 
